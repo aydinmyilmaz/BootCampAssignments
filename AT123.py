@@ -110,7 +110,7 @@ for i in range (0,n):
 
 
 myvehicle=pd.DataFrame(myvehicle)
-myvehicle
+
 
 
 # In[397]:
@@ -130,7 +130,7 @@ firstdf["vehicles"][0] = firstdf["vehicles"][0].map(myvehicle[0])
 
 
 
-#firstdf.vehicles.values
+
 
 
 dictlist = [myvehicle.values() for x in range(1)]
